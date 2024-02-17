@@ -84,4 +84,5 @@ select {
 }
 
 body {
+  background-color: var(--clr-white);
 }
