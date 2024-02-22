@@ -101,9 +101,33 @@ body {
 }
 
 h1 {
-  color: var(--clr-dark-grayish-magenta);
+  color: var(--clr-vdark-magenta);
   font-family: var(--fontfamily);
   font-weight: bold;
   font-size: clamp(2.5rem, 6.5vw, 3.5rem);
   line-height: 0.7;
+}
+
+h2 {
+  font-family: var(--fontfamily);
+  font-weight: 400;
+  color: red;
+}
+
+.frist-wrapper,
+.second-wrapper,
+.frist-section,
+.second-section,
+.report-guru,
+.review,
+.best-tech,
+.bio,
+.rating-stars {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.frist-section {
+  justify-content: space-between;
 }
