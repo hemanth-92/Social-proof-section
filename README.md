@@ -1,1 +1,1 @@
-# Challenges
+# Social proof section
